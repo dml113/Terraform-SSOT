@@ -4,8 +4,7 @@ on:
   push:
     branches: [ "main" ]
   schedule:
-    - cron: "*/3 * * * *"    
-  pull_request:
+    - cron: "*/3 * * * *"
 
 env:
   AWS_REGION: ap-northeast-1
