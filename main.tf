@@ -1,5 +1,9 @@
 # main.tf
 
+provider "aws" {
+  region = "ap-northeast-1"
+}
+
 # Required providers configuration
 terraform {
   required_providers {
